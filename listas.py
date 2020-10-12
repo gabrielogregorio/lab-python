@@ -53,6 +53,9 @@ print(backup)
 codigo = [0,1,1,1,0,1,0,1,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0] # CONTAGEM DE VALORES
 print(codigo.count(1))
 
+print("indo a -2")
+print(codigo[::-2])
+
 lista = ['b','a','c','e','d'] # lista original
 print(lista)
 

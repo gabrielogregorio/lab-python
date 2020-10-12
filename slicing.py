@@ -28,3 +28,10 @@ print('')
 # Andando de 0 a 9 e mostrando o valor do indice na string
 for caractere in range(0,10):
     print(string[caractere], end='')
+
+
+# Nomeando sleces
+lista = [1, 2, 3, 4, 5]
+ULTIMOS2 = slice(-3, None)
+print(ULTIMOS2)
+print(lista[ULTIMOS2])
