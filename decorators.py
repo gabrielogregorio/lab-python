@@ -1,7 +1,7 @@
 '''
 é um design pattern
 padrão de projeto de software que permite adicionar
-um comportamento a um objetyo ja existente em tempo de execucoa
+um comportamento a um objeto ja existente em tempo de execucoa
 ele agrega dinamizamenet responsabilidades adicionais a um objeto
 é uma funcao que recebe uma funcao como parametro, gera uma nova funcao que
 adiciona algumas funcionalidades a funcao original e retorna a nova função
@@ -63,7 +63,7 @@ def meu_decorador(funcao):
     def imprimir(a):
         return "Mais aleatório impossivel"
     return imprimir
-    return funcao
+
 
 @meu_decorador
 def imprime(a):
