@@ -6,7 +6,6 @@ def bt_onclick():
 
 janela = Tk()
 
-# Edite é o entry
 ed = Entry(janela)
 ed.place(x=100,y=100)
 
