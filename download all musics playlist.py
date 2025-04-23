@@ -19,7 +19,7 @@ def baixar_playlist_como_mp3(url_playlist):
         print(ref)
         ydl.download([url_playlist])
 
-link_playlist = "https://www.youtube.com/playlist?list=PLgqgYgA9TzKjh-x60HSZr34gYkZNi9sQP"
+link_playlist = "https://www.youtube.com/playlist?list=exampleid"
 baixar_playlist_como_mp3(link_playlist)
 
 
